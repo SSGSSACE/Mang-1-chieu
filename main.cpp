@@ -1,13 +1,11 @@
 #include <iostream>
+#include "main.h"
 #define MAX 100
 using namespace std;
 int n;
 int s = 0;
 int x;
-void Nhapmang(int a[], int n);
-void Xuatmang(int a[], int n);
-void tong(int a[], int n);
-void saochep(int a2[MAX], int a[MAX], int n);
+
 int main()
 {
     int a[MAX];
