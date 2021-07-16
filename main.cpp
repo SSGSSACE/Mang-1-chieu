@@ -64,11 +64,5 @@ void timkiem(int a[MAX], int n, int x)
             std::cout << "Vi tri dang tim kiem la: " << i;
             goto nhan;
         }
-        else
-        {
-            std::cout << "Khong tim thay phan tu trong mang" << std::endl;
-        }
-     nhan:
-     break;
-    }
+
 }
