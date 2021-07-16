@@ -5,7 +5,7 @@ using namespace std;
 int n;
 int s = 0;
 int x;
-
+int i;
 int main()
 {
     int a[MAX];
@@ -57,15 +57,13 @@ void saochep(int a2[MAX], int a[MAX], int n)
 }
 void timkiem(int a[MAX], int n, int x)
 {
-    for (int i = 0; i < n; i++)
+
+    if (a[i] == x)
     {
-        if (a[i] == x)
-        {
-            std::cout << "Vi tri dang tim kiem la: " << i;
-        }
-        else
-        {
-            std::cout << "Khong tim thay phan tu trong mang" << std::endl;
-        }
+        std::cout << "Vi tri dang tim kiem la: " << i;
+    }
+    else
+    {
+        std::cout << "Khong tim thay phan tu trong mang" << std::endl;
     }
 }
