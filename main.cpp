@@ -63,4 +63,5 @@ int timkiem(int a[MAX], int n, int x)
 
             std::cout << "Vi tri dang tim kiem la: " << i;
     }
+    return 0;
 }
