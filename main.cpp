@@ -6,6 +6,7 @@ int s = 0;
 void Nhapmang(int a[], int n);
 void Xuatmang(int a[], int n);
 void tong(int a[], int n);
+void saochep(int a2[MAX],int a[MAX],int n);
 int main()
 {
     int a[MAX];
@@ -16,6 +17,7 @@ int main()
     Xuatmang(a, n);
     tong(a, n);
     std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
+    std::cout << "Mang sau khi sao chep la: " << std::endl;
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
