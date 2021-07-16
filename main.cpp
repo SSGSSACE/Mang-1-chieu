@@ -12,7 +12,7 @@ int main()
     cin >> n;
     Nhapmang(a, n);
     Xuatmang(a, n);
-
+    std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
 void Nhapmang(int a[MAX], int n)
