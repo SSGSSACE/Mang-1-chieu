@@ -67,5 +67,6 @@ void timkiem(int a[MAX], int n, int x)
         {
             std::cout << "Khong tim thay phan tu trong mang" << std::endl;
         }
+        break;
     }
 }
