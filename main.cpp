@@ -56,4 +56,7 @@ void saochep(int a2[MAX], int a[MAX], int n)
         std::cout << a2[i]<<"\t";
     }
 }
-void timkiem(int a[MAX])
+void timkiem(int a[MAX],int n,int x)
+{
+    
+}
