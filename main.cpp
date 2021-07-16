@@ -42,7 +42,12 @@ void tong(int a[MAX], int n)
         s = s + a[i];
     }
 }
-void saochep(int a2[],int)
+void saochep(int a2[MAX],int a[MAX],int n)
 {
-
+    for (int i = 0; i < n; i++)
+    {
+        a2[i]=a[i];
+    }
+    
+    
 }
