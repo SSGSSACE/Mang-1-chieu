@@ -18,10 +18,10 @@ int main()
     std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
     std::cout << "Mang sau khi sao chep la: " << std::endl;
     saochep(a2, a, n);
-    std::cout << "Nhap so tim kiem: ";
+    std::cout << "\nNhap so tim kiem: ";
     cin >> x;
     timkiem(a, n, x);
-    std::cout << "Ket thuc chuong trinh" << std::endl;
+    std::cout << "\nKet thuc chuong trinh" << std::endl;
     return 0;
 }
 void Nhapmang(int a[MAX], int n)
