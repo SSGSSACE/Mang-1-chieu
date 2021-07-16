@@ -3,6 +3,7 @@
 using namespace std;
 int n;
 int s = 0;
+int x;
 void Nhapmang(int a[], int n);
 void Xuatmang(int a[], int n);
 void tong(int a[], int n);
@@ -19,6 +20,8 @@ int main()
     std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
     std::cout << "Mang sau khi sao chep la: " << std::endl;
     saochep(a2, a, n);
+    std::cout << "Nhap so tim kiem: ";
+    cin>>x;
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
