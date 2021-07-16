@@ -2,20 +2,18 @@
 #define MAX 100
 using namespace std;
 int n;
+  int s = 0;
 void Nhapmang(int a[], int n);
 void Xuatmang(int a[], int n);
 int main()
 {
     int a[MAX];
-    int s = 0;
+  
     std::cout << "Nhap vao so luong phan tu mang: ";
     cin >> n;
     Nhapmang(a, n);
     Xuatmang(a, n);
-    for (int i = 0; i < n; i++)
-    {
-        s = s + a[i];
-    }
+
     std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
@@ -34,5 +32,12 @@ void Xuatmang(int a[MAX], int n)
     for (int i = 0; i < n; i++)
     {
         std::cout << a[i] << "\t";
+    }
+}
+void tong(int a[MAX],int n)
+{
+        for (int i = 0; i < n; i++)
+    {
+        s = s + a[i];
     }
 }
