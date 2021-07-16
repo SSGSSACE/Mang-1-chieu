@@ -6,7 +6,7 @@ int s = 0;
 void Nhapmang(int a[], int n);
 void Xuatmang(int a[], int n);
 void tong(int a[], int n);
-void saochep(int a2[MAX],int a[MAX],int n);
+void saochep(int a2[MAX], int a[MAX], int n);
 int main()
 {
     int a[MAX];
@@ -18,7 +18,7 @@ int main()
     tong(a, n);
     std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
     std::cout << "Mang sau khi sao chep la: " << std::endl;
-    saochep(a2,a,n);
+    saochep(a2, a, n);
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
@@ -45,12 +45,11 @@ void tong(int a[MAX], int n)
         s = s + a[i];
     }
 }
-void saochep(int a2[MAX],int a[MAX],int n)
+void saochep(int a2[MAX], int a[MAX], int n)
 {
     for (int i = 0; i < n; i++)
     {
-        a2[i]=a[i];
+        a2[i] = a[i];
+        std::cout << a2[i] << std::endl;
     }
-    
-    
 }
