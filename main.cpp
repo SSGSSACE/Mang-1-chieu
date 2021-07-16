@@ -10,7 +10,7 @@ void saochep(int a2[MAX],int a[MAX],int n);
 int main()
 {
     int a[MAX];
-
+    int a2[MAX];
     std::cout << "Nhap vao so luong phan tu mang: ";
     cin >> n;
     Nhapmang(a, n);
@@ -18,6 +18,7 @@ int main()
     tong(a, n);
     std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
     std::cout << "Mang sau khi sao chep la: " << std::endl;
+    saochep(a2,a,n);
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
