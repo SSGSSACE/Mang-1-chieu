@@ -62,7 +62,6 @@ void timkiem(int a[MAX], int n, int x)
         if (a[i] == x)
 
             std::cout << "Vi tri dang tim kiem la: " << i;
-            
-     break;
+            break;
     }
 }
