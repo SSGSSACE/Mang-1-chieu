@@ -19,7 +19,8 @@ int main()
     std::cout << "Mang sau khi sao chep la: " << std::endl;
     saochep(a2, a, n);
     std::cout << "Nhap so tim kiem: ";
-    cin>>x;
+    cin >> x;
+    timkiem(a, n, x);
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
@@ -51,23 +52,20 @@ void saochep(int a2[MAX], int a[MAX], int n)
     for (int i = 0; i < n; i++)
     {
         a2[i] = a[i];
-        std::cout << a2[i]<<"\t";
+        std::cout << a2[i] << "\t";
     }
 }
-void timkiem(int a[MAX],int n,int x)
+void timkiem(int a[MAX], int n, int x)
 {
     for (int i = 0; i < n; i++)
     {
-        if (a[i]==x)
+        if (a[i] == x)
         {
-            std::cout << "Vi tri dang tim kiem la: " <<i;
+            std::cout << "Vi tri dang tim kiem la: " << i;
         }
         else
         {
             std::cout << "Khong tim thay phan tu trong mang" << std::endl;
         }
-        
-        
     }
-    
 }
