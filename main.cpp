@@ -50,6 +50,6 @@ void saochep(int a2[MAX], int a[MAX], int n)
     for (int i = 0; i < n; i++)
     {
         a2[i] = a[i];
-        std::cout << a2[i] << std::endl;
+        std::cout << a2[i]<<"\t";
     }
 }
