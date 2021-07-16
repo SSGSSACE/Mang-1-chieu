@@ -42,3 +42,7 @@ void tong(int a[MAX], int n)
         s = s + a[i];
     }
 }
+void saochep(int )
+{
+
+}
