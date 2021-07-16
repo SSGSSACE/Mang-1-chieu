@@ -16,7 +16,7 @@ int main()
     {
         s = s + a[i];
     }
-    std::cout << "Tong cac phan tu trong mang la: " << s << std::endl;
+    std::cout << "\nTong cac phan tu trong mang la: " << s << std::endl;
     std::cout << "Ket thuc chuong trinh" << std::endl;
     return 0;
 }
